@@ -13,11 +13,7 @@
         <div>
          <img src="images/footlogo.png" alt="logo" class="w-64"/>
         </div>
-
-        <span class="material-symbols-outlined">
-            menu
-        </span>
-        <nav>
+        <nav class="hidden lg:block">
             <ul class="flex flex-row gap-5 pt-4 text-xl">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
@@ -26,24 +22,29 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
-        <div>
-            <ul class="flex flex-row gap-5 pt-4">
-              <li>
+        <div class="hidden lg:block">
+            <ul class="flex flex-row gap-5 pt-4 space-x-3">
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
                 <a href="#">
-                <img src="images/twitter.svg" alt="twitter-icon" />
+                <img src="images/twitter.png" alt="twitter-icon" class="w-4"/>
                 </a>
               </li>
-              <li>
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
                 <a href="#">
-                <img src="images/facebook.svg" alt="facebook-icon" />
+                <img src="images/facebook.png" alt="facebook-icon" class="w-4"/>
                 </a>   
               </li>
-              <li>
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
                 <a href="#">
-                 <img src="images/linkedin.svg" alt="linkedin-icon" />
+                 <img src="images/linkedin.png" alt="linkedin-icon" class="w-4"/>
                 </a>
               </li>
             </ul>
+        </div>
+        <div class="block lg:hidden pt-3 cursor-pointer">
+            <span class="material-symbols-outlined text-4xl">
+                menu
+            </span>
         </div>
       </div>
     </header>
