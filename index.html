@@ -3,10 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mockup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="text-blue-600 text-3xl">Hello world</h1>
+    <header class="border-b-2 border-red-900">
+      <div class="container flex flex-row justify-between font-display">
+        <div class="py-4">
+         <img src="images/footlogo.png" alt="logo" class="w-64"/>
+        </div>
+        <nav class="hidden lg:block">
+            <ul class="flex flex-row text-xl gap-4">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#service">Services</a></li>
+                <li class="link"><a href="#about">Who We Are</a></li>
+                <li class="link"><a href="#">Invest</a></li>
+                <li class="link"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="hidden lg:block py-4">
+            <ul class="flex flex-row gap-5 pt-4 space-x-3">
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
+                <a href="#">
+                <img src="images/twitter.png" alt="twitter-icon" class="w-4"/>
+                </a>
+              </li>
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
+                <a href="#">
+                <img src="images/facebook.png" alt="facebook-icon" class="w-4"/>
+                </a>   
+              </li>
+              <li class="py-1 px-1 border-2 border-textColor rounded-full">
+                <a href="#">
+                 <img src="images/linkedin.png" alt="linkedin-icon" class="w-4"/>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="block lg:hidden pt-3 cursor-pointer">
+            <span class="material-symbols-outlined text-4xl">
+                menu
+            </span>
+        </div>
+      </div>
+    </header>
+    <main>
+        <section id="home">
+          <div>
+            <img src="images/shaking-hands.jpg" alt="people-shaking-hands" class="w-full"/>
+          </div>
+          <div class="absolute top-[85%] left-[15%]">
+            <h1 class="text-4xl text-white font-bold font-display">Guding Investment to <br> Where It is Needed Most!</h1>
+          </div>
+        </section>
+        
+        <section>
+            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-14">
+               <article class="grid grid-cols-4 py-3 px-2 gap-3">
+                 <div>
+                    <img src="images/belgium.png" alt="belgium-flag" class="w-full h-36" />
+                 </div>
+                 <div class="col-span-3">
+                    <div class="flex flex-row font-display gap-2">
+                      <div>
+                            <p class="text-base text-red-500">Invest in</p>
+                            <h2 class="text-xl font-[900] text-textColor">Belgium</h2>
+                      </div>
+                      <div class="py-1 px-2 rounded-full">
+                      <img src="images/arrow.png" alt="arrow" />
+                       </div>
+                    </div>
+                    <p class="text-base text-[#999999] pt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore culpa hic corporis eos omnis officiis!.</p>
+                   </div>
+               </article>
+                                     
+               <article class="grid grid-cols-4 py-3 px-2 gap-3">
+                <div>
+                   <img src="images/france.png" alt="france-flag" class="w-full h-36" />
+                </div>
+                <div class="col-span-3">
+                   <div class="flex flex-row font-display gap-2">
+                     <div>
+                           <p class="text-base text-red-500">Invest in</p>
+                           <h2 class="text-xl font-[900] text-textColor">France</h2>
+                     </div>
+                     <div class="py-1 px-2 rounded-full">
+                        <img src="images/arrow.png" alt="arrow" />
+                      </div>
+                   </div>
+                   <p class="text-base text-[#999999] pt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore culpa hic corporis eos omnis officiis!.</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-4 py-3 px-2 gap-3">
+                <div>
+                   <img src="images/canada.png" alt="canada-flag" class="w-full h-36" />
+                </div>
+                <div class="col-span-3">
+                   <div class="flex flex-row font-display gap-2">
+                     <div>
+                           <p class="text-base text-red-500">Invest in</p>
+                           <h2 class="text-xl font-[900] text-textColor">Canada</h2>
+                     </div>
+                     <div class="py-1 px-2 rounded-full">
+                        <img src="images/arrow.png" alt="arrow" />
+                      </div>
+                   </div>
+                   <p class="text-base text-[#999999] pt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore culpa hic corporis eos omnis officiis!.</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-4 py-3 px-2 gap-3">
+                <div>
+                   <img src="images/rwanda.png" alt="rwanda-flag" class="w-full h-36" />
+                </div>
+                <div class="col-span-3">
+                   <div class="flex flex-row font-display gap-2">
+                     <div>
+                           <p class="text-base text-red-500">Invest in</p>
+                           <h2 class="text-xl font-[900] text-textColor">Rwanda</h2>
+                     </div>
+                     <div class="py-1 px-2 rounded-full">
+                        <img src="images/arrow.png" alt="arrow" />
+                      </div>
+                   </div>
+                   <p class="text-base text-[#999999] pt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore culpa hic corporis eos omnis officiis!.</p>
+                  </div>
+              </article>
+            </div>
+        </section>
+
+        <section class="py-10" id="about">
+          <div class="container grid grid-cols-1 lg:grid-cols-2 font-display">
+            <div class="place-content-center">
+                <h4 class="text-red-600 font-medium">ABOUT US</h4>
+                <h1 class=" text-2xl lg:text-5xl text-textColor font-bold font-display">Guding Investment to <br> Where It is Needed Most!</h1>
+            </div>
+            <div>
+                <p class="text-[#999999] pt-4 lg:pt-0">Mobilizing Public/ Private Partnerships for Investments in various Sectors in Africa's. This workshop offers especially interested private investors interdisciplinary and comparative analyses of key topics to help them minimize risks and successfully invest on the continent</p>
+                <button class="text-black py-1 px-2 border-2 border-black rounded-3xl mt-3 font-medium">Read More</button>
+            </div>
+          </div>
+          <div>
+          </div>
+        </section>
+
+        <section class="bg-background py-14" id="service">
+          <div class="container font-display">
+            <div class="place-content-center">
+                <h4 class="text-red-600 text-base font-medium">OUR SERVICE</h4>
+                <h1 class="text-3xl text-textColor font-bold font-display">What We Do</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-8 gap-5 lg:gap-0">
+               <article class="flex flex-col border text-center border-textColor rounded-3xl px-2 lg:w-64 w-full">
+                 <div>
+                    <span class="material-symbols-outlined py-8 text-6xl">
+                        bar_chart_4_bars
+                    </span>
+                 </div>
+                 <h4 class="text-textColor text-xl font-[900]">Investment Promotion Strategy</h4>
+                 <p class="text-[#999999] py-4">Formulating an effective investment promotion strategy</p>
+               </article>
+
+               <article class="flex flex-col place-items-center border text-center border-textColor rounded-3xl px-2 lg:w-64 w-full">
+                <div>
+                    <span class="material-symbols-outlined py-8 text-6xl">
+                        business_center
+                    </span>
+                </div>
+                <h4 class="text-textColor text-xl font-[900]">Business Environment</h4>
+                <p class="text-[#999999] py-4">Business Environment and Investment Promotion;</p>
+              </article>
+
+              <article class="flex flex-col place-items-center border text-center border-textColor rounded-3xl px-2 lg:w-64 w-full">
+                <div>
+                    <span class="material-symbols-outlined py-8 text-6xl">
+                        monitoring
+                    </span>
+                </div>
+                <h4 class="text-textColor text-xl font-[900]">BEREX <br>Invest & Ipas</h4>
+                <p class="text-[#999999] py-4">Investment Promotion Agency</p>
+              </article>
+
+              <article class="flex flex-col place-items-center border text-center border-textColor rounded-3xl px-2 lg:w-64 w-full">
+                <div>
+                    <span class="material-symbols-outlined py-8 text-6xl">
+                        forum
+                    </span>
+                </div>
+                <h4 class="text-textColor text-xl font-[900]">Advisory</h4>
+                <p class="text-[#999999] py-4">We advise and provide guidence to European private companies</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-10">
+          <div class="container grid grid-cols-1 lg:grid-cols-2 font-display gap-10">
+             <div>
+                <img src="images/peopleInOffice.jpg" alt="people-standing" class="w-full"/>
+             </div>
+             <div>
+                <h4 class="text-red-600 text-base font-medium">CHOOSE US</h4>
+                <h1 class="text-3xl text-textColor font-bold font-display">Why Choose Us</h1>
+                <p class="pt-3 text-[#999999]">
+                  We are an Established, Investment Management<br> Company based in the heart of Europe Belgium
+                </p>
+              <div class="space-y-5">
+                <article class="flex flex-row gap-3 font-display pt-6">
+                    <div>
+                      <img src="images/workshop.png" alt="workshop" class="w-full object-cover"/>
+                    </div>
+                    <div class="flex flex-col">
+                       <h2 class="text-lg text-textColor font-medium">Workshops</h2>
+                       <p class="text-[#999999]">
+                         Berex invest "Investment Roundtable" - Mobilizing Public/ Private Partnerships for  Investments in various Sectors in Africa's
+                       </p> 
+                   </div>
+                  </article>
+   
+                  <article class="flex flex-row gap-3 font-display">
+                   <div>
+                     <img src="images/Airplane.png" alt="Airplane" />
+                   </div>
+                   <div class="flex flex-col">
+                      <h2 class="text-lg text-textColor font-medium">Holiday & Tourism Annual Fair</h2>
+                      <p class="text-[#999999]">
+                        Berex invest "Holiday and tourism annual fair" which showcases some of Africa's finest tourist & holiday exotic
+                      </p> 
+                  </div>
+                 </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-8">
+            <div class="container">
+                <div class="place-content-center">
+                    <h4 class="text-red-600 text-base font-medium">OUR PARTNERS</h4>
+                    <h1 class="text-3xl text-textColor font-bold font-display">What We Do</h1>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:flex lg:flex-row gap-5 justify-between py-4">
+                  <img src="images/foot.png" alt="foot-logo" class="text-6xl"/>
+                  <img src="images/RDB.png" alt="RDB-logo" />
+                  <img src="images/foot.png" alt="foot-logo" class="text-6xl"/>
+                  <img src="images/RDB.png" alt="RDB-logo" />
+                  <img src="images/foot.png" alt="foot-logo" class="text-6xl"/>
+                  <img src="images/RDB.png" alt="RDB-logo" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="bg-blue-900 mt-5 border-t-4 border-red-800">
+          <div class="container grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-28 lg:place-items-center py-14">
+            <div>
+                <img src="images/footer2.png" alt="footer"/>
+            </div>
+            <div class="flex flex-col gap-6 lg:flex-row lg:space-x-44">
+                <div class="text-white font-display">
+                    <h3 class="text-xl text-red-700 font-normal">Quick Links</h3>
+                    <hr class="w-14" />
+                    <ul class="flex flex-col">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#about">Who We Are</a></li>
+                        <li><a href="#">Invest</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="text-white">
+                    <h3 class="text-xl text-red-700 font-normal">Address</h3>
+                    <hr class="w-14" />
+                    <ul class="flex flex-col font-display gap-2 pt-2">
+                        <li class="flex flex-row gap-1">
+                           <img src="images/location.png" alt="address" class="w-8 rounded-full"/>
+                           <p>BEREX Invest Limited <br> Rue de Mons(G). 85/0.3 7011 Mons</p>
+                        </li>
+        
+                        <li class="flex flex-row gap-1">
+                            <img src="images/email.png" alt="email" class="w-8 rounded-full"/>
+                            <p>info@berexinvest.com</p>
+                        </li>
+                        <li class="flex flex-row gap-1">
+                            <img src="images/phone.png" alt="address" class="w-8 rounded-full"/>
+                            <p>+250 758 621558</p>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-blue-950">
+           <p class="text-center text-white font-display py-2">&copy; All Rights Reserved, BEREX, Invest 2021</p>
+        </section>
+    </footer>
 </body>
 </html>
